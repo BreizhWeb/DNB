@@ -1,6 +1,6 @@
 # # Générateur de mots de passe Node.js
 
-Ce projet est un générateur de mots de passe simple écrit en Node.js. Il génère des mots de passe aléatoires en utilisant des caractères alphanumériques et spéciaux, avec une longueur spécifiée par l'utilisateur.
+Ce projet est un générateur de mots de passe simples écrits en Node.js. Il génère des mots de passe aléatoires en utilisant des caractères alphanumériques et spéciaux, avec une longueur spécifiée par l'utilisateur.
 
 
 ## Installation
