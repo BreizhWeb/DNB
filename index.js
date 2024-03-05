@@ -2,7 +2,8 @@
 
 function genererMotDePasse(longueur, options) {
     // Définir les caractères possibles
-    const caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    const caracteres = "abcdefghijklmnopqrstuvwxyz";
+    const symboles = "!@#$%^&*()";
 
     // Définir la longueur par défaut
     longueur = longueur || 12;
@@ -24,11 +25,15 @@ function genererMotDePasse(longueur, options) {
     }
 
     if (options.chiffres) {
-        motDePasse += caracteres.charAt(Math.floor(Math.random() * 10));
+        motDePasse = motDePasse.replace(/./g, function(c) {
+            return Math.random() < 0.3 ? Math.floor(Math.random() * 10) : c;
+        });
     }
 
     if (options.symboles) {
-        motDePasse += "!@#$%^&*()";
+        motDePasse = motDePasse.replace(/./g, function(c) {
+            return Math.random() < 0.3 ? symboles.charAt(Math.floor(Math.random() * symboles.length)) : c;
+        });
     }
 
     // Retourner le mot de passe
