@@ -1,10 +1,19 @@
 {
-  "name": "dnb",
+  "name": "doriannicolasbaptiste-password-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Générateur de mot de passe sécurisé",
   "main": "index.js",
+  "keywords": [
+    "opensource",
+    "password",
+    "generator"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BreizhWeb/DorianNicolasBaptiste.git"
   },
   "author": "Dorian Nicolas Baptiste",
   "license": "ISC"
