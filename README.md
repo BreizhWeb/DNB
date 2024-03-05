@@ -1,4 +1,4 @@
-# # Générateur de mots de passe Node.js
+# Générateur de mots de passe Node.js
 
 Ce projet est un générateur de mots de passe simples écrits en Node.js. Il génère des mots de passe aléatoires en utilisant des caractères alphanumériques et spéciaux, avec une longueur spécifiée par l'utilisateur.
 
@@ -7,7 +7,7 @@ Ce projet est un générateur de mots de passe simples écrits en Node.js. Il g�
 
 Pour installer ce générateur de mots de passe, vous pouvez utiliser npm (Node Package Manager). Assurez-vous d'avoir Node.js installé sur votre système.
 ```bash 
-npm install doriannicolasbaptiste-password-generator
+npm install dorian-nicolas-baptiste-password-generator
 ```
 
 ## Utilisation
