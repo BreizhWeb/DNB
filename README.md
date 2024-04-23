@@ -15,7 +15,7 @@ npm install dorian-nicolas-baptiste-password-generator
 Pour utiliser le générateur de mots de passe, vous pouvez l'importer dans votre projet Node.js et appeler la fonction `generatePassword()` en spécifiant la longueur du mot de passe souhaité.
 
 ```javascript
-const generatePassword = require('@doriannicolasbaptiste-password-generator/genererMotDePasse');
+const generatePassword = require('dorian-nicolas-baptiste-password-generator');
 
 const password = generatePassword(12); // Génère un mot de passe de 12 caractères
 console.log(password);
